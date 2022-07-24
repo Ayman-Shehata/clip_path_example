@@ -1,3 +1,4 @@
+
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/logo.png?raw=true" alt="Project logo"></a>
@@ -15,7 +16,7 @@
 </div>
 
 ---
-
+![alt text](https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.PNG?raw=true)
 
 ## 📝 Table of Contents
 
@@ -26,12 +27,6 @@
 - [Authors](#authors)
 <!-- - [Acknowledgments](#acknowledgement) -->
 
-
-
-
-<p align="center">
-![alt text](https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.png?raw=true)
-</p>
 
 ## 🧐 About <a name = "about"></a>
 
