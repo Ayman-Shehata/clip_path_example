@@ -8,14 +8,17 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/Ayman-Shehata/The-Documentation-Compendium.svg)](https://github.com/Ayman-Shehata/clip_path_example/issues)
+<!-- [![GitHub Issues](https://img.shields.io/github/issues/Ayman-Shehata/The-Documentation-Compendium.svg)](https://github.com/Ayman-Shehata/clip_path_example/issues) -->
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Ayman-Shehata/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
-
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.png?raw=true" alt="Project logo"></a>
+</p>
 
 ## 📝 Table of Contents
 
