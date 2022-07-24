@@ -1,14 +1,14 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/logo.png?raw=true" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Flutter Clippath Example</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Ayman-Shehata/clip_path_example/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
@@ -16,99 +16,102 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
-    <br> 
-</p>
 
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
+- [code](#code)
 - [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+<!-- - [Contributing](../CONTRIBUTING.md) -->
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+<!-- - [Acknowledgments](#acknowledgement) -->
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+An updated ripo about clippath with flutter .
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Code <a name = "code"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
+First image (left) with straight line.
 
 ```
-Give examples
+class myShape1 extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    double w = size.width;
+    double h = size.height;
+    Path path = Path();
+    // remove Move step
+    path.lineTo(0, h);
+    path.lineTo(w * 8 / 9, h);
+    path.lineTo(w, 0);
+    path.close();
+
+    return path;
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
+    return false;
+  }
+}
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Second image (Center).
 
 ```
-Give the example
+class myShape extends CustomClipper<Path> {
+
+  @override
+  Path getClip(Size size) {
+    double w = size.width;
+    double h = size.height;
+
+    Path path = Path();
+    path.moveTo(w * 1 / 9, 0);
+
+    path.lineTo(0, h);
+    path.lineTo(w * 8 / 9, h);
+    path.lineTo(w, 0);
+
+    path.close();
+
+    return path;
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
+    return false;
+  }
+}
 ```
 
-And repeat
+Third image (right).
 
 ```
-until finished
+class myShape2 extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    double w = size.width;
+    double h = size.height;
+    Path path = Path();
+    path.moveTo(w * 1 / 9, 0);
+    path.lineTo(0, h);
+    path.lineTo(w , h); // edited
+    path.lineTo(w, 0);
+    path.close();
+
+    return path;
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
+    return false;
+  }
+}
 ```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@Ayman-Shehata](https://github.com/Ayman-Shehata) 
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
