@@ -19,17 +19,14 @@
 
 ## 📝 Table of Contents
 
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.PNG?raw=true" alt="Project "></a>
-</p>
-
 - [About](#about)
 - [code](#code)
 - [TODO](../TODO.md)
 <!-- - [Contributing](../CONTRIBUTING.md) -->
 - [Authors](#authors)
 <!-- - [Acknowledgments](#acknowledgement) -->
+
+<img width=200px height=200px src="https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/logo.png?raw=true" alt="Project">
 
 ## 🧐 About <a name = "about"></a>
 
