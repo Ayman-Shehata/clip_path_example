@@ -30,7 +30,7 @@
 
 
 <p align="center">
-![alt text](https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/logo.png?raw=true)
+![alt text](https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.png?raw=true)
 </p>
 
 ## 🧐 About <a name = "about"></a>
