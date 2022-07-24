@@ -15,7 +15,7 @@
 </div>
 
 ---
-![alt text](https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.png?raw=true)
+![alt text](https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.PNG?raw=true)
 
 ## 📝 Table of Contents
 
