@@ -15,10 +15,7 @@
 </div>
 
 ---
-<p align="center">
-  
- <img width=200px height=200px src="https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.png?raw=true" alt="Project"> 
-</p>
+![alt text](https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.png?raw=true)
 
 ## 📝 Table of Contents
 
