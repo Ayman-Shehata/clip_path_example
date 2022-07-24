@@ -27,7 +27,10 @@
 <!-- - [Acknowledgments](#acknowledgement) -->
 
 
-![alt text](https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/logo.png?raw=true)
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://github.com/Ayman-Shehata/clip_path_example/blob/master/screenshots/final.PNG?raw=true" alt="Project"></a>
+</p>
 
 
 ## 🧐 About <a name = "about"></a>
